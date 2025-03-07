@@ -167,8 +167,8 @@ class TTS(Cog):
         self.bot:Bot = bot
         self.bot_db:Database = bot.db        
 
-        self.green_tick= "<a:green_tick:957565222837686322>"
-        self.red_check = "<a:red_check:957565291636863037>"
+        self.green_tick= "✅"
+        self.red_check = "❌"
 
         self.messageQueue = asyncio.Queue(maxsize=5)
 

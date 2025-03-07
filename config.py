@@ -9,6 +9,9 @@ SUPPORT_SERVER = ""
 TOPGG = ""
 DBL = ""
 
+OWNER_IDS = []
+PREFIX = "+"
+
 COLOR_RANDOM = Color.random()
 COLOR_DARKTHEME = Color.dark_theme()
 COLOR_DANGER = COLOR_RED = Color.red()

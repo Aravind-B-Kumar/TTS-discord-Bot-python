@@ -28,12 +28,12 @@ initial_extensions = (
 
 intents = discord.Intents.default()
 intents.members = True
-#intents.presences = True
-#intents.message_content = True
+intents.presences = True
+intents.message_content = True
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("+"),
+bot = commands.Bot(command_prefix=commands.when_mentioned_or(config.PREFIX),
                    strip_after_prefix=True,
-                   owner_ids=[758681854424514561, 844086740401520690],
+                   owner_ids=config.OWNER_IDS,
                    case_insensitive=True,
                    intents=intents)
 
