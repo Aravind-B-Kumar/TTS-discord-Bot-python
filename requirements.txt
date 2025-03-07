@@ -1,0 +1,7 @@
+aiosqlite
+discord.py
+gTTS
+loguru
+uvloop
+PyNaCl
+jishaku
